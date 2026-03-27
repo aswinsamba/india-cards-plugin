@@ -1,0 +1,9 @@
+{
+  "name": "india-cards",
+  "description": "Analyse Indian bank statements and recommend the best credit cards based on your actual spend patterns. Card database sourced from official bank benefit pages, refreshed on demand.",
+  "author": {
+    "name": "Aswin",
+    "email": ""
+  },
+  "version": "1.0.0"
+}
