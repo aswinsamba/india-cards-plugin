@@ -21,20 +21,28 @@ Read the spend analysis from:
 
 If neither exists, tell the user: "No spend analysis found. Run `/analyze-spend <your-statement>` first."
 
-### Step 2 — Load card database
+### Step 2 — Load and auto-refresh card database
 
-Load the card database using this priority order:
+First, load whatever data is available:
 
-1. Try `~/.india-cards/cards.json` (local copy from last `/refresh-cards` run)
-2. If missing or empty (`cards` has 0 entries), fetch the pre-built database from GitHub:
+1. Try `~/.india-cards/cards.json` (local copy)
+2. If missing or empty, fetch pre-built data from GitHub:
    ```bash
    curl -s https://raw.githubusercontent.com/aswinsamba/india-cards-plugin/main/plugins/india-cards/data/cards.json
    ```
 
-If `last_updated` is more than 30 days ago:
-> "Card database is over a month old. Run `/refresh-cards` to update it."
+**Check staleness:** get `last_updated` from the loaded data.
+```bash
+python3 -c "import json,sys; d=json.load(open(f'{__import__(\"os\").path.expanduser(\"~\")}/.india-cards/cards.json')); print(d.get('last_updated',''))" 2>/dev/null
+```
 
-If the file has fewer than 5 cards, suggest refreshing anyway.
+If `last_updated` is more than 7 days ago (or missing), **silently refresh before continuing**:
+- Tell the user: "Card data is over a week old — refreshing from official bank pages first..."
+- Run the same fetch-and-extract steps as `/refresh-cards` for all 20 cards
+- Save the updated database to `~/.india-cards/cards.json`
+- Then proceed with recommendations using the fresh data
+
+If the refresh fetch fails (network issue), continue with existing data and note it.
 
 ### Step 3 — Score each card
 
