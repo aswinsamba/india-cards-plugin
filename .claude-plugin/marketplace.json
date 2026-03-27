@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "india-cards",
+  "description": "Indian credit card recommendation plugin — analyse bank statements and find the best cards for your spend",
+  "owner": {
+    "name": "aswinsamba"
+  },
+  "plugins": [
+    {
+      "name": "india-cards",
+      "description": "Analyse Indian bank statements and recommend the best credit cards based on your actual spend patterns. Card data sourced from official bank benefit pages.",
+      "version": "1.0.0",
+      "author": {
+        "name": "aswinsamba"
+      },
+      "source": "./plugins/india-cards",
+      "category": "productivity"
+    }
+  ]
+}
