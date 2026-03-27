@@ -23,10 +23,16 @@ If neither exists, tell the user: "No spend analysis found. Run `/analyze-spend 
 
 ### Step 2 — Load card database
 
-Read `~/.india-cards/cards.json`.
+Load the card database using this priority order:
 
-If `last_updated` is null or more than 14 days ago:
-> "Card database is stale or empty. Run `/refresh-cards` to populate it from official bank pages."
+1. Try `~/.india-cards/cards.json` (local copy from last `/refresh-cards` run)
+2. If missing or empty (`cards` has 0 entries), fetch the pre-built database from GitHub:
+   ```bash
+   curl -s https://raw.githubusercontent.com/aswinsamba/india-cards-plugin/main/plugins/india-cards/data/cards.json
+   ```
+
+If `last_updated` is more than 30 days ago:
+> "Card database is over a month old. Run `/refresh-cards` to update it."
 
 If the file has fewer than 5 cards, suggest refreshing anyway.
 

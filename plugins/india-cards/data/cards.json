@@ -1,4 +1,703 @@
 {
-  "last_updated": null,
-  "cards": {}
+  "last_updated": "2026-03-27T00:00:00",
+  "cards": {
+    "hdfc-regalia-gold": {
+      "id": "hdfc-regalia-gold",
+      "name": "HDFC Regalia Gold Credit Card",
+      "issuer": "HDFC Bank",
+      "joining_fee": 2500,
+      "annual_fee": 2500,
+      "fee_waiver_spend_lakhs": 4,
+      "base_reward_points_per_100": 2.67,
+      "reward_point_value_paise": 50,
+      "accelerated_categories": [
+        {"category": "Myntra / Nykaa / Reliance Digital and more", "multiplier": 5, "note": "5X on select brands via SmartBUY; up to 10X on flights/hotels on SmartBUY"},
+        {"category": "Flights and Hotel bookings via SmartBUY", "multiplier": 10, "note": "Up to 10X rewards"}
+      ],
+      "lounge_domestic_annual": 12,
+      "lounge_international_annual": 6,
+      "forex_markup_pct": 2.0,
+      "fuel_surcharge_waiver": true,
+      "welcome_benefit_value": null,
+      "milestone_benefits": [
+        "Rs. 5,000 worth flight vouchers on spends of Rs. 5 lakh and Rs. 7.5 lakh",
+        "Rs. 1,500 worth Myntra/Nykaa vouchers on quarterly spends of Rs. 1.5 lakhs"
+      ],
+      "other_perks": [
+        "Complimentary Swiggy One membership on spends of Rs. 1 lakh in first 90 days",
+        "Complimentary MMT Black Gold membership on spends of Rs. 1 lakh in first 90 days",
+        "Accidental air death cover Rs. 1 crore",
+        "Emergency overseas hospitalization up to Rs. 15 lakhs",
+        "Credit liability cover up to Rs. 9 lakhs",
+        "Max 50,000 reward points per statement cycle",
+        "Reward points redeemable: flights/hotels at Rs. 0.50/pt, Gold catalogue at Rs. 0.65/pt"
+      ],
+      "card_type": "travel",
+      "best_for": ["travel", "lifestyle", "milestone benefits"],
+      "official_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/regalia-gold-credit-card",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "live"
+    },
+    "hdfc-infinia": {
+      "id": "hdfc-infinia",
+      "name": "HDFC Infinia Metal Credit Card",
+      "issuer": "HDFC Bank",
+      "joining_fee": 12500,
+      "annual_fee": 12500,
+      "fee_waiver_spend_lakhs": 10,
+      "base_reward_points_per_100": 3.33,
+      "reward_point_value_paise": 100,
+      "accelerated_categories": [
+        {"category": "SmartBUY (travel and shopping)", "multiplier": 10, "note": "Up to 10X reward points on SmartBUY spends"},
+        {"category": "Apple products / Tanishq vouchers via SmartBUY", "multiplier": 10, "note": "Redeem at Rs. 1 per point"}
+      ],
+      "lounge_domestic_annual": "unlimited",
+      "lounge_international_annual": "unlimited",
+      "forex_markup_pct": 2.0,
+      "fuel_surcharge_waiver": true,
+      "welcome_benefit_value": 12500,
+      "milestone_benefits": [
+        "12,500 renewal reward points on fee realization and card activation",
+        "Renewal fee waiver on spends of Rs. 10 lakhs or more in preceding 12 months"
+      ],
+      "other_perks": [
+        "By invite only",
+        "Complimentary Club Marriott membership (first year)",
+        "Up to 25% discount on dining and stay across Asia-Pacific with Club Marriott",
+        "3-night stay pay for 2 at participating ITC hotels",
+        "1+1 complimentary buffet at participating ITC hotels",
+        "Unlimited complimentary golf lessons and games at leading courses",
+        "100% green fee waiver at select global courses",
+        "24x7 Global Personal Concierge",
+        "Accidental air death cover Rs. 3 crore",
+        "Reward points: Apple/Tanishq Rs. 1/pt, flights/hotels Rs. 1/pt, airmiles up to 1 airmile, vouchers Rs. 0.50/pt, cashback Rs. 0.30/pt",
+        "Max 2 lakh reward points redeemable per statement cycle"
+      ],
+      "card_type": "premium",
+      "best_for": ["premium lifestyle", "travel", "golf", "dining"],
+      "official_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/infinia-credit-card",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "live"
+    },
+    "hdfc-millennia": {
+      "id": "hdfc-millennia",
+      "name": "HDFC Millennia Credit Card",
+      "issuer": "HDFC Bank",
+      "joining_fee": 1000,
+      "annual_fee": 1000,
+      "fee_waiver_spend_lakhs": 1,
+      "base_reward_points_per_100": 1,
+      "reward_point_value_paise": 30,
+      "accelerated_categories": [
+        {"category": "Amazon, Flipkart, Myntra and other partner online merchants", "multiplier": 5, "note": "5% cashback (as CashPoints) on online spends via partner sites"},
+        {"category": "All other online spends", "multiplier": 2.5, "note": "2.5% cashback as CashPoints"},
+        {"category": "Wallet / PayZapp", "multiplier": 2.5, "note": "2.5% cashback as CashPoints"}
+      ],
+      "lounge_domestic_annual": 8,
+      "lounge_international_annual": null,
+      "forex_markup_pct": 3.5,
+      "fuel_surcharge_waiver": true,
+      "welcome_benefit_value": 1000,
+      "milestone_benefits": [
+        "Rs. 1,000 gift voucher on spending Rs. 1 lakh in a quarter"
+      ],
+      "other_perks": [
+        "CashPoints redeemable against statement balance at Rs. 0.30 per point",
+        "1% fuel surcharge waiver at all fuel stations (min Rs. 400, max Rs. 5,000 transaction)",
+        "Swiggy Dineout up to 20% savings on dining"
+      ],
+      "card_type": "cashback",
+      "best_for": ["online shopping", "cashback", "millennials"],
+      "official_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/millennia-credit-card",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "training"
+    },
+    "hdfc-moneyback-plus": {
+      "id": "hdfc-moneyback-plus",
+      "name": "HDFC MoneyBack+ Credit Card",
+      "issuer": "HDFC Bank",
+      "joining_fee": 500,
+      "annual_fee": 500,
+      "fee_waiver_spend_lakhs": 0.5,
+      "base_reward_points_per_100": 1.33,
+      "reward_point_value_paise": 20,
+      "accelerated_categories": [
+        {"category": "Amazon / Flipkart / Grocery / Dining", "multiplier": 5, "note": "5X CashPoints on select online spends; capped per month"}
+      ],
+      "lounge_domestic_annual": null,
+      "lounge_international_annual": null,
+      "forex_markup_pct": 3.5,
+      "fuel_surcharge_waiver": true,
+      "welcome_benefit_value": null,
+      "milestone_benefits": [],
+      "other_perks": [
+        "CashPoints redeemable as cashback against outstanding statement",
+        "EMI conversion facility"
+      ],
+      "card_type": "cashback",
+      "best_for": ["entry-level cashback", "online shopping", "everyday spends"],
+      "official_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/moneyback-plus-credit-card",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "training"
+    },
+    "axis-magnus": {
+      "id": "axis-magnus",
+      "name": "Axis Bank Magnus Credit Card",
+      "issuer": "Axis Bank",
+      "joining_fee": 12500,
+      "annual_fee": 12500,
+      "fee_waiver_spend_lakhs": 25,
+      "base_reward_points_per_100": 6,
+      "reward_point_value_paise": 50,
+      "accelerated_categories": [
+        {"category": "All spends up to Rs. 1.5 lakhs/month", "multiplier": 1, "note": "12 EDGE Reward points per Rs. 200"},
+        {"category": "Incremental spends above Rs. 1.5 lakhs/month", "multiplier": 2.92, "note": "35 EDGE Reward points per Rs. 200"},
+        {"category": "Travel EDGE portal spends", "multiplier": 5, "note": "5X reward points on Travel EDGE"}
+      ],
+      "lounge_domestic_annual": "unlimited",
+      "lounge_international_annual": "unlimited",
+      "forex_markup_pct": 2.0,
+      "fuel_surcharge_waiver": true,
+      "welcome_benefit_value": 12500,
+      "milestone_benefits": [],
+      "other_perks": [
+        "Welcome benefit: Rs. 12,500 voucher (Luxe gift card / The Postcard Hotels / Yatra)",
+        "Unlimited domestic airport lounge access",
+        "Unlimited international lounge via Priority Pass; 4 guest visits/year",
+        "Up to 30% discount at 4,000+ restaurants (Dining Delights)",
+        "Earn 2 partner miles per 5 EDGE Reward points (20 travel partners)",
+        "No cash withdrawal fee",
+        "Lowered interest rate of 3% per month on extended credit",
+        "1% fuel surcharge waiver on transactions Rs. 400–Rs. 4,000 (capped Rs. 400/month)"
+      ],
+      "card_type": "travel",
+      "best_for": ["travel", "premium rewards", "high spenders"],
+      "official_url": "https://www.axisbank.com/retail/cards/credit-card/axis-bank-magnus-card/more-benefits",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "live"
+    },
+    "axis-atlas": {
+      "id": "axis-atlas",
+      "name": "Axis Bank Atlas Credit Card",
+      "issuer": "Axis Bank",
+      "joining_fee": 5000,
+      "annual_fee": 5000,
+      "fee_waiver_spend_lakhs": null,
+      "base_reward_points_per_100": 2,
+      "reward_point_value_paise": 100,
+      "accelerated_categories": [
+        {"category": "Travel EDGE portal / direct airlines / direct hotel spends", "multiplier": 5, "note": "5 EDGE Miles per Rs. 100 spent"},
+        {"category": "All other spends", "multiplier": 2, "note": "2 EDGE Miles per Rs. 100 (base)"}
+      ],
+      "lounge_domestic_annual": 12,
+      "lounge_international_annual": 6,
+      "forex_markup_pct": 3.5,
+      "fuel_surcharge_waiver": false,
+      "welcome_benefit_value": 2500,
+      "milestone_benefits": [
+        "Upgrade to Gold tier at Rs. 7.5 lakh annual spend; 2,500 EDGE Miles anniversary bonus",
+        "Upgrade to Platinum tier at Rs. 15 lakh annual spend; 5,000 EDGE Miles anniversary bonus",
+        "Milestone EDGE Miles: up to 10,000 EDGE Miles on achieving spend milestones"
+      ],
+      "other_perks": [
+        "Welcome benefit: 2,500 EDGE Miles on first transaction within 37 days",
+        "1 EDGE Mile = Rs. 1 in value",
+        "Tiered membership: Silver / Gold / Platinum based on annual spends",
+        "EDGE Miles can be transferred to 20+ airline and hotel partners",
+        "Airlines-agnostic travel card"
+      ],
+      "card_type": "travel",
+      "best_for": ["travel", "airline miles", "hotel stays"],
+      "official_url": "https://www.axisbank.com/retail/cards/credit-card/axis-bank-atlas-credit-card",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "live"
+    },
+    "axis-ace": {
+      "id": "axis-ace",
+      "name": "Axis Bank ACE Credit Card",
+      "issuer": "Axis Bank",
+      "joining_fee": 499,
+      "annual_fee": 499,
+      "fee_waiver_spend_lakhs": 2,
+      "base_reward_points_per_100": 1.5,
+      "reward_point_value_paise": 100,
+      "accelerated_categories": [
+        {"category": "Utility bill payments / DTH / mobile recharges on Google Pay", "multiplier": 3.33, "note": "5% cashback"},
+        {"category": "Swiggy / Zomato / Ola", "multiplier": 2.67, "note": "4% cashback"},
+        {"category": "All other spends", "multiplier": 1, "note": "1.5% cashback"}
+      ],
+      "lounge_domestic_annual": 4,
+      "lounge_international_annual": null,
+      "forex_markup_pct": 3.5,
+      "fuel_surcharge_waiver": true,
+      "welcome_benefit_value": null,
+      "milestone_benefits": [],
+      "other_perks": [
+        "1% fuel surcharge waiver on transactions Rs. 400–Rs. 4,000 (max Rs. 500/statement)",
+        "Up to 15% off at 4,000+ partner restaurants (Dining Delights)",
+        "No cashback earned on fuel transactions",
+        "Utility transaction fee: 1% on cumulative utility spends above Rs. 25,000/cycle (from Dec 2024)"
+      ],
+      "card_type": "cashback",
+      "best_for": ["utility bills", "food delivery", "everyday cashback"],
+      "official_url": "https://www.axisbank.com/retail/cards/credit-card/ace-credit-card",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "live"
+    },
+    "icici-sapphiro": {
+      "id": "icici-sapphiro",
+      "name": "ICICI Bank Sapphiro Credit Card",
+      "issuer": "ICICI Bank",
+      "joining_fee": 6500,
+      "annual_fee": 3500,
+      "fee_waiver_spend_lakhs": 6,
+      "base_reward_points_per_100": 2,
+      "reward_point_value_paise": 25,
+      "accelerated_categories": [
+        {"category": "International spends", "multiplier": 4, "note": "4 reward points per Rs. 100"},
+        {"category": "Domestic spends", "multiplier": 2, "note": "2 reward points per Rs. 100"},
+        {"category": "Utility and Insurance spends", "multiplier": 1, "note": "1 reward point per Rs. 100"}
+      ],
+      "lounge_domestic_annual": 16,
+      "lounge_international_annual": 2,
+      "forex_markup_pct": 3.5,
+      "fuel_surcharge_waiver": true,
+      "welcome_benefit_value": 13000,
+      "milestone_benefits": [
+        "4,000 reward points on Rs. 4 lakh spend; 2,000 RPs for every additional Rs. 1 lakh spend, up to 20,000 RPs in anniversary year"
+      ],
+      "other_perks": [
+        "Welcome vouchers worth over Rs. 13,000 (Tata CLiQ Rs. 3,000 / EaseMyTrip Rs. 4,000 / Da Milano Rs. 5,000 / Croma Rs. 1,500 / EazyDiner Prime 3 months)",
+        "4 domestic lounge visits per quarter (16/year)",
+        "2 complimentary international lounge visits per year",
+        "Buy one get one on BookMyShow (up to Rs. 500 off second ticket, twice/month)",
+        "Air Accident Insurance cover up to Rs. 3 crore",
+        "Up to 4 complimentary golf rounds per month",
+        "24/7 Concierge Service",
+        "Personal Accident Insurance Cover Rs. 2 lakh (RuPay variant)"
+      ],
+      "card_type": "lifestyle",
+      "best_for": ["travel", "lifestyle", "entertainment", "golf"],
+      "official_url": "https://www.icicibank.com/personal-banking/cards/credit-card/sapphiro-credit-card/key-privileges",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "live"
+    },
+    "icici-amazon-pay": {
+      "id": "icici-amazon-pay",
+      "name": "Amazon Pay ICICI Bank Credit Card",
+      "issuer": "ICICI Bank",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "fee_waiver_spend_lakhs": null,
+      "base_reward_points_per_100": 1,
+      "reward_point_value_paise": 100,
+      "accelerated_categories": [
+        {"category": "Amazon purchases (Prime members)", "multiplier": 5, "note": "5% cashback for Amazon Prime members"},
+        {"category": "Amazon purchases (non-Prime members)", "multiplier": 3, "note": "3% cashback for non-Prime members"},
+        {"category": "Amazon Pay partner merchants", "multiplier": 2, "note": "2% cashback at Amazon Pay partners"},
+        {"category": "All other spends", "multiplier": 1, "note": "1% cashback on all other spends"}
+      ],
+      "lounge_domestic_annual": null,
+      "lounge_international_annual": null,
+      "forex_markup_pct": 3.5,
+      "fuel_surcharge_waiver": false,
+      "welcome_benefit_value": null,
+      "milestone_benefits": [],
+      "other_perks": [
+        "Lifetime free card with no joining or annual fee",
+        "Cashback credited directly as Amazon Pay balance",
+        "No cap on cashback earnings"
+      ],
+      "card_type": "cashback",
+      "best_for": ["Amazon shopping", "Amazon Prime members", "cashback"],
+      "official_url": "https://www.icicibank.com/personal-banking/cards/credit-card/amazon-pay-icici-credit-card/key-privileges",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "training"
+    },
+    "icici-emeralde": {
+      "id": "icici-emeralde",
+      "name": "ICICI Bank Emeralde Private Metal Credit Card",
+      "issuer": "ICICI Bank",
+      "joining_fee": 12000,
+      "annual_fee": 12000,
+      "fee_waiver_spend_lakhs": 15,
+      "base_reward_points_per_100": 3,
+      "reward_point_value_paise": 100,
+      "accelerated_categories": [
+        {"category": "Travel and hotel spends", "multiplier": 2, "note": "Accelerated Emeralde Reward points on travel"},
+        {"category": "Dining and international spends", "multiplier": 2, "note": "Accelerated rewards on dining and overseas spends"}
+      ],
+      "lounge_domestic_annual": "unlimited",
+      "lounge_international_annual": 4,
+      "forex_markup_pct": 1.5,
+      "fuel_surcharge_waiver": true,
+      "welcome_benefit_value": 12000,
+      "milestone_benefits": [
+        "Milestone vouchers and reward points on achieving spend thresholds"
+      ],
+      "other_perks": [
+        "Metal card",
+        "Unlimited domestic airport lounge access",
+        "4 international lounge visits per year via Priority Pass",
+        "1.5% forex markup (low compared to peers)",
+        "Complimentary golf rounds",
+        "24/7 concierge",
+        "Air accident insurance up to Rs. 3 crore",
+        "Annual fee waived on Rs. 15 lakh spend"
+      ],
+      "card_type": "premium",
+      "best_for": ["premium travel", "international spends", "lifestyle"],
+      "official_url": "https://www.icicibank.com/personal-banking/cards/credit-card/emeralde-private-metal-credit-card/key-privileges",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "training"
+    },
+    "sbi-simplyclick": {
+      "id": "sbi-simplyclick",
+      "name": "SimplyCLICK SBI Credit Card",
+      "issuer": "SBI Card",
+      "joining_fee": 499,
+      "annual_fee": 499,
+      "fee_waiver_spend_lakhs": 1,
+      "base_reward_points_per_100": 1,
+      "reward_point_value_paise": 25,
+      "accelerated_categories": [
+        {"category": "Amazon / Apollo / BookMyShow / Cleartrip / EazyDiner / Lenskart / Netmeds", "multiplier": 10, "note": "10X reward points on exclusive partner online merchants"},
+        {"category": "All other online spends", "multiplier": 5, "note": "5X reward points on all other online transactions"}
+      ],
+      "lounge_domestic_annual": null,
+      "lounge_international_annual": null,
+      "forex_markup_pct": 3.5,
+      "fuel_surcharge_waiver": true,
+      "welcome_benefit_value": 500,
+      "milestone_benefits": [
+        "e-voucher worth Rs. 2,000 on annual online spends of Rs. 1 lakh",
+        "e-voucher worth Rs. 2,000 on annual online spends of Rs. 2 lakhs"
+      ],
+      "other_perks": [
+        "Welcome gift: Amazon e-voucher worth Rs. 500 on joining fee payment",
+        "Annual fee waiver on Rs. 1 lakh spends",
+        "Reward points redeemable against statement balance or e-vouchers"
+      ],
+      "card_type": "rewards",
+      "best_for": ["online shopping", "entry-level rewards", "e-commerce"],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards/shopping/simplyclick-sbi-card.page",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "training"
+    },
+    "sbi-elite": {
+      "id": "sbi-elite",
+      "name": "SBI Card ELITE",
+      "issuer": "SBI Card",
+      "joining_fee": 4999,
+      "annual_fee": 4999,
+      "fee_waiver_spend_lakhs": 10,
+      "base_reward_points_per_100": 2,
+      "reward_point_value_paise": 25,
+      "accelerated_categories": [
+        {"category": "Dining / Movies / Groceries", "multiplier": 5, "note": "5X reward points on dining, movies, and groceries"}
+      ],
+      "lounge_domestic_annual": 24,
+      "lounge_international_annual": 6,
+      "forex_markup_pct": 1.99,
+      "fuel_surcharge_waiver": true,
+      "welcome_benefit_value": 5000,
+      "milestone_benefits": [
+        "e-gift voucher worth Rs. 5,000 on annual spends of Rs. 3 lakhs",
+        "e-gift voucher worth Rs. 7,000 on annual spends of Rs. 4 lakhs",
+        "e-gift voucher worth Rs. 10,000 on annual spends of Rs. 5 lakhs"
+      ],
+      "other_perks": [
+        "Welcome gift: Rs. 5,000 vouchers from premium brands",
+        "6 domestic lounge visits per quarter (24/year)",
+        "6 international lounge visits per year via Priority Pass",
+        "Complimentary Club Vistara Silver membership",
+        "Complimentary Trident Privilege Red Tier membership",
+        "Low forex markup of 1.99%",
+        "Annual fee waived on Rs. 10 lakh spend"
+      ],
+      "card_type": "lifestyle",
+      "best_for": ["dining", "movies", "groceries", "travel", "lifestyle"],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards/travel-and-entertainment/sbi-card-elite.page",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "training"
+    },
+    "sbi-cashback": {
+      "id": "sbi-cashback",
+      "name": "Cashback SBI Card",
+      "issuer": "SBI Card",
+      "joining_fee": 999,
+      "annual_fee": 999,
+      "fee_waiver_spend_lakhs": 2,
+      "base_reward_points_per_100": null,
+      "reward_point_value_paise": null,
+      "accelerated_categories": [
+        {"category": "All online spends", "multiplier": 5, "note": "5% cashback on all online transactions"},
+        {"category": "All offline spends", "multiplier": 1, "note": "1% cashback on all offline transactions"}
+      ],
+      "lounge_domestic_annual": null,
+      "lounge_international_annual": null,
+      "forex_markup_pct": 3.5,
+      "fuel_surcharge_waiver": true,
+      "welcome_benefit_value": null,
+      "milestone_benefits": [],
+      "other_perks": [
+        "Cashback credited directly to statement, no redemption needed",
+        "Annual fee waiver on Rs. 2 lakh annual spend",
+        "Cashback applicable on all online categories without exclusions (except wallet, fuel)"
+      ],
+      "card_type": "cashback",
+      "best_for": ["online shopping", "flat cashback", "no-category cashback"],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards/cashback/cashback-sbi-card.page",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "training"
+    },
+    "idfc-first-wealth": {
+      "id": "idfc-first-wealth",
+      "name": "IDFC FIRST Wealth Credit Card",
+      "issuer": "IDFC FIRST Bank",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "fee_waiver_spend_lakhs": null,
+      "base_reward_points_per_100": 3,
+      "reward_point_value_paise": 25,
+      "accelerated_categories": [
+        {"category": "Online spends", "multiplier": 10, "note": "10X reward points on online transactions"},
+        {"category": "Offline spends above Rs. 20,000/month", "multiplier": 10, "note": "10X reward points on high-value offline spends"}
+      ],
+      "lounge_domestic_annual": "unlimited",
+      "lounge_international_annual": 4,
+      "forex_markup_pct": 1.5,
+      "fuel_surcharge_waiver": true,
+      "welcome_benefit_value": null,
+      "milestone_benefits": [
+        "Bonus reward points on achieving quarterly or annual spend milestones"
+      ],
+      "other_perks": [
+        "Lifetime free card (no joining or annual fee)",
+        "1.5% forex markup — among lowest in segment",
+        "Unlimited domestic lounge access",
+        "4 international lounge visits per year",
+        "Reward points never expire",
+        "Complimentary golf lessons and games",
+        "Personal accident cover",
+        "Air accident cover"
+      ],
+      "card_type": "lifestyle",
+      "best_for": ["zero-fee premium card", "online shopping", "travel", "forex"],
+      "official_url": "https://www.idfcfirstbank.com/credit-card/wealth/amp",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "training"
+    },
+    "idfc-first-select": {
+      "id": "idfc-first-select",
+      "name": "IDFC FIRST Select Credit Card",
+      "issuer": "IDFC FIRST Bank",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "fee_waiver_spend_lakhs": null,
+      "base_reward_points_per_100": 3,
+      "reward_point_value_paise": 25,
+      "accelerated_categories": [
+        {"category": "Online spends", "multiplier": 10, "note": "10X reward points on online transactions"},
+        {"category": "Offline spends above Rs. 20,000/month", "multiplier": 10, "note": "10X reward points on high-value offline spends"}
+      ],
+      "lounge_domestic_annual": 4,
+      "lounge_international_annual": null,
+      "forex_markup_pct": 1.99,
+      "fuel_surcharge_waiver": true,
+      "welcome_benefit_value": null,
+      "milestone_benefits": [
+        "Bonus reward points on achieving quarterly or annual spend milestones"
+      ],
+      "other_perks": [
+        "Lifetime free card (no joining or annual fee)",
+        "1.99% forex markup",
+        "4 domestic lounge visits per year",
+        "Reward points never expire",
+        "Personal accident cover",
+        "Insurance benefits"
+      ],
+      "card_type": "lifestyle",
+      "best_for": ["zero-fee card", "online shopping", "everyday rewards"],
+      "official_url": "https://www.idfcfirstbank.com/credit-card/select/amp",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "training"
+    },
+    "amex-platinum-travel": {
+      "id": "amex-platinum-travel",
+      "name": "American Express Platinum Travel Credit Card",
+      "issuer": "American Express",
+      "joining_fee": 3500,
+      "annual_fee": 5000,
+      "fee_waiver_spend_lakhs": null,
+      "base_reward_points_per_100": 1,
+      "reward_point_value_paise": 50,
+      "accelerated_categories": [
+        {"category": "Travel bookings", "multiplier": 5, "note": "5X Membership Rewards points on travel spends"},
+        {"category": "All other spends", "multiplier": 1, "note": "1 MR point per Rs. 50 spent"}
+      ],
+      "lounge_domestic_annual": 8,
+      "lounge_international_annual": null,
+      "forex_markup_pct": 3.5,
+      "fuel_surcharge_waiver": false,
+      "welcome_benefit_value": 10000,
+      "milestone_benefits": [
+        "Indigo travel vouchers worth Rs. 7,700 on spend of Rs. 1.9 lakhs/year",
+        "Taj Experiences voucher worth Rs. 10,000 on spend of Rs. 4 lakhs/year"
+      ],
+      "other_perks": [
+        "Welcome benefit: 10,000 Membership Rewards points on joining (first year only)",
+        "8 complimentary domestic airport lounge visits per year",
+        "Membership Rewards points never expire",
+        "Points transferable to airline partner programs",
+        "Global acceptance at 140+ countries"
+      ],
+      "card_type": "travel",
+      "best_for": ["travel", "airline points", "milestone benefits"],
+      "official_url": "https://www.americanexpress.com/in/benefits/platinum-travel-credit-card/",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "live"
+    },
+    "amex-mrcc": {
+      "id": "amex-mrcc",
+      "name": "American Express Membership Rewards Credit Card",
+      "issuer": "American Express",
+      "joining_fee": 0,
+      "annual_fee": 4500,
+      "fee_waiver_spend_lakhs": null,
+      "base_reward_points_per_100": 2,
+      "reward_point_value_paise": 50,
+      "accelerated_categories": [
+        {"category": "4 transactions of Rs. 1,000+ in a calendar month", "multiplier": 2.5, "note": "Earn bonus 1,000 MR points on completing 4 qualifying transactions"},
+        {"category": "Dining / Travel / Entertainment on SmartEarn", "multiplier": 5, "note": "5X MR points on select SmartEarn partner merchants"}
+      ],
+      "lounge_domestic_annual": 18,
+      "lounge_international_annual": null,
+      "forex_markup_pct": 3.5,
+      "fuel_surcharge_waiver": false,
+      "welcome_benefit_value": 4000,
+      "milestone_benefits": [
+        "4,000 bonus MR points on spending Rs. 30,000+ in first 90 days"
+      ],
+      "other_perks": [
+        "Welcome benefit: 4,000 MR points on meeting first spend milestone",
+        "18 complimentary domestic lounge visits per year",
+        "Membership Rewards points never expire",
+        "Points transferable to airline partner programs at 2:1 ratio",
+        "First year free for select applicants"
+      ],
+      "card_type": "rewards",
+      "best_for": ["everyday rewards", "dining", "lounge access"],
+      "official_url": "https://www.americanexpress.com/in/benefits/membership-rewards-credit-card/",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "training"
+    },
+    "amex-platinum-reserve": {
+      "id": "amex-platinum-reserve",
+      "name": "American Express Platinum Reserve Credit Card",
+      "issuer": "American Express",
+      "joining_fee": 5000,
+      "annual_fee": 10000,
+      "fee_waiver_spend_lakhs": null,
+      "base_reward_points_per_100": 1,
+      "reward_point_value_paise": 50,
+      "accelerated_categories": [
+        {"category": "Travel spends", "multiplier": 5, "note": "5X MR points on travel bookings"},
+        {"category": "Dining", "multiplier": 5, "note": "5X MR points on dining"}
+      ],
+      "lounge_domestic_annual": 12,
+      "lounge_international_annual": 2,
+      "forex_markup_pct": 3.5,
+      "fuel_surcharge_waiver": false,
+      "welcome_benefit_value": null,
+      "milestone_benefits": [
+        "Benefits worth Rs. 80,000 on shopping, dining, travel and more (per card website)"
+      ],
+      "other_perks": [
+        "12 complimentary domestic lounge visits (3 per quarter)",
+        "2 complimentary international lounge visits per year via Priority Pass",
+        "Priority Pass membership (worth US$99) complimentary",
+        "Complimentary ALL Accor+ Explorer Membership: 15% off hotel stays worldwide, up to 30% off dining in Asia-Pacific",
+        "Complimentary golf rounds at select courses",
+        "Amex Experiences App access for exclusive events",
+        "Membership Rewards points never expire",
+        "Points transferable to airline frequent flyer programs"
+      ],
+      "card_type": "premium",
+      "best_for": ["premium lifestyle", "hotel benefits", "domestic lounge access"],
+      "official_url": "https://www.americanexpress.com/in/benefits/platinum-reserve-card/",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "live"
+    },
+    "kotak-league-platinum": {
+      "id": "kotak-league-platinum",
+      "name": "Kotak League Platinum Credit Card",
+      "issuer": "Kotak Mahindra Bank",
+      "joining_fee": 499,
+      "annual_fee": 499,
+      "fee_waiver_spend_lakhs": 0.5,
+      "base_reward_points_per_100": 4,
+      "reward_point_value_paise": 25,
+      "accelerated_categories": [
+        {"category": "Departmental stores and grocery", "multiplier": 8, "note": "8X reward points on grocery and departmental store spends"}
+      ],
+      "lounge_domestic_annual": 8,
+      "lounge_international_annual": null,
+      "forex_markup_pct": 3.5,
+      "fuel_surcharge_waiver": true,
+      "welcome_benefit_value": null,
+      "milestone_benefits": [
+        "Spend Rs. 1.25 lakh per quarter and get 4 PVR tickets free"
+      ],
+      "other_perks": [
+        "4 PVR complimentary movie tickets per quarter on qualifying spends",
+        "8 complimentary domestic airport lounge visits per year",
+        "1% fuel surcharge waiver",
+        "Annual fee waived on Rs. 50,000 annual spend"
+      ],
+      "card_type": "rewards",
+      "best_for": ["movies", "grocery", "everyday rewards"],
+      "official_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/league-platinum-credit-card.html",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "training"
+    },
+    "indusind-celesta": {
+      "id": "indusind-celesta",
+      "name": "IndusInd Bank Celesta Credit Card",
+      "issuer": "IndusInd Bank",
+      "joining_fee": 50000,
+      "annual_fee": 50000,
+      "fee_waiver_spend_lakhs": null,
+      "base_reward_points_per_100": 1.5,
+      "reward_point_value_paise": 100,
+      "accelerated_categories": [
+        {"category": "Travel spends", "multiplier": 2, "note": "Accelerated reward points on travel"},
+        {"category": "International spends", "multiplier": 2, "note": "Accelerated points on overseas transactions"}
+      ],
+      "lounge_domestic_annual": "unlimited",
+      "lounge_international_annual": "unlimited",
+      "forex_markup_pct": 1.8,
+      "fuel_surcharge_waiver": true,
+      "welcome_benefit_value": 50000,
+      "milestone_benefits": [
+        "Milestone vouchers from premium brands on achieving high spend thresholds"
+      ],
+      "other_perks": [
+        "Ultra-premium Visa Infinite card",
+        "1.5 Reward Points for every Rs. 100 spent",
+        "Comprehensive golf program: 1 complimentary game + 1 lesson per month (from March 2026)",
+        "Unlimited domestic and international lounge access",
+        "Complimentary domestic lounge access criteria-based from July 2026",
+        "Dedicated relationship manager",
+        "Concierge services",
+        "Personal accident cover",
+        "Air accident insurance"
+      ],
+      "card_type": "premium",
+      "best_for": ["ultra-premium lifestyle", "travel", "golf", "high net worth"],
+      "official_url": "https://www.indusind.com/in/en/personal/cards/credit-card/celesta-credit-card.html",
+      "last_fetched": "2026-03-27T00:00:00",
+      "source": "live"
+    }
+  }
 }
